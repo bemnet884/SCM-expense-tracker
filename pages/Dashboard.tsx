@@ -2,6 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from '../components/Navbar';
 import ExpenseList from '../components/ExpenseList';
+import ExpenseChart from '../components/ExpenseChart';
 import { StorageKeys, Expense, User } from '../types';
 
 const Dashboard: React.FC = () => {
@@ -54,6 +55,11 @@ const Dashboard: React.FC = () => {
               <p className="text-2xl font-black">{expenses.length}</p>
             </div>
           </div>
+        </div>
+
+        {/* Charts Section */}
+        <div className="mb-10">
+          <ExpenseChart expenses={expenses} />
         </div>
 
         {/* Expense History Section */}
