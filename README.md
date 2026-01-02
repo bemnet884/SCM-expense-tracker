@@ -1,21 +1,109 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Absolutely! Since this is **SCM Mini Project**, the README should cover **project purpose, structure, setup, and links to docs**. I’ll make it **professional, concise, and SCM-focused** so you can push it as part of **Baseline 1**.
 
-# Run and deploy your AI Studio app
+Here’s a ready-to-use `README.md`:
 
-This contains everything you need to run your app locally.
+```markdown
+# Personal Expense Tracker - SCM Mini Project
 
-View your app in AI Studio: https://ai.studio/apps/temp/2
+**Department of Software Engineering**  
+**Software Configuration Management (SCM) Mini Project**  
+**Submission Date:** 12/30/2025
 
-## Run Locally
+## Project Overview
 
-**Prerequisites:**  Node.js
+This project implements a **Personal Expense Tracker** as a simple web application using **Next.js** for the frontend and a **JSON file** as a simple database.  
+The project focuses on **Software Configuration Management (SCM) principles**, including version control, baselines, change requests, and configuration audits.
 
+**Key Features Implemented:**
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-# SCM-expense-tracker
+- Login / Authentication page
+- Main Dashboard with list of expenses
+- Core feature: Add / Edit / Delete an expense
+- Simple JSON database for storing data
+- Proper folder structure and documentation
+
+## Repository Structure
+```
+
+authdash-personal-expense-tracker/
+├── docs/ # SCM documents (SCMP, CI Register, Change Requests, Baseline Records)
+├── src/ # Source code
+│ ├── app/ # Next.js pages
+│ ├── components/ # React components
+│ ├── data/ # JSON database
+│ └── styles/ # CSS / Tailwind styles
+├── tests/ # Unit / Integration tests
+├── releases/ # Release notes and packaged versions
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md # Project overview
+
+````
+
+## Getting Started
+**Prerequisites:**
+- Node.js (v18+)
+- npm or yarn
+- Git
+
+**Setup & Run:**
+```bash
+# Clone the repository
+git clone <repository-url>
+cd authdash-personal-expense-tracker
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+npm run start
+````
+
+**Testing:**
+
+```bash
+# Run all tests
+npm run test
+```
+
+## SCM Deliverables Included
+
+- **SCMP Document** (`docs/SCMP.docx`)
+- **CI Register** (`docs/CI_Register.xlsx`)
+- **Change Request Form** (`docs/Change_Request_Form.docx`)
+- **Baseline Records** (`docs/Baseline_BL1.docx`, `docs/Baseline_BL2.docx`)
+- **Release Notes** (`releases/Release_v1.0.md`, `releases/Release_v1.1.md`)
+
+## Branching Strategy
+
+- **main**: stable baseline versions
+- **feature/\***: individual member tasks (e.g., `feature/ui-pages`, `feature/change-request`)
+- **tags**: `BL1`, `BL2` for baselines
+
+## Contributors
+
+- Member 1: SCMP Document
+- Member 2: CI Register
+- Member 3: Change Requests
+- Member 4: Baseline Records
+- Member 5: UI Pages
+- Member 6: JSON Database & Components
+
+## License
+
+This project is developed for **SWENG5111 SCM Mini Project** at **AASTU**. All rights reserved.
+
+```
+
+---
+
+If you want, I can also **write the `CI_Register.xlsx` template and SCMP.docx skeleton** that matches this README, so your team can immediately push **Baseline 1**.
+
+Do you want me to do that next?
+```
