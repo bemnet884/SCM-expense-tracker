@@ -1,8 +1,3 @@
-Absolutely! Since this is **SCM Mini Project**, the README should cover **project purpose, structure, setup, and links to docs**. I’ll make it **professional, concise, and SCM-focused** so you can push it as part of **Baseline 1**.
-
-Here’s a ready-to-use `README.md`:
-
-```markdown
 # Personal Expense Tracker - SCM Mini Project
 
 **Department of Software Engineering**  
@@ -14,7 +9,7 @@ Here’s a ready-to-use `README.md`:
 This project implements a **Personal Expense Tracker** as a simple web application using **Next.js** for the frontend and a **JSON file** as a simple database.  
 The project focuses on **Software Configuration Management (SCM) principles**, including version control, baselines, change requests, and configuration audits.
 
-**Key Features Implemented:**
+### Key Features Implemented
 
 - Login / Authentication page
 - Main Dashboard with list of expenses
@@ -23,13 +18,12 @@ The project focuses on **Software Configuration Management (SCM) principles**, i
 - Proper folder structure and documentation
 
 ## Repository Structure
-```
 
 authdash-personal-expense-tracker/
 ├── docs/ # SCM documents (SCMP, CI Register, Change Requests, Baseline Records)
 ├── src/ # Source code
 │ ├── app/ # Next.js pages
-│ ├── components/ # React components
+│ ├── components/# React components
 │ ├── data/ # JSON database
 │ └── styles/ # CSS / Tailwind styles
 ├── tests/ # Unit / Integration tests
@@ -40,15 +34,16 @@ authdash-personal-expense-tracker/
 ├── vite.config.ts
 └── README.md # Project overview
 
-````
-
 ## Getting Started
+
 **Prerequisites:**
+
 - Node.js (v18+)
 - npm or yarn
 - Git
 
 **Setup & Run:**
+
 ```bash
 # Clone the repository
 git clone <repository-url>
@@ -63,47 +58,46 @@ npm run dev
 # Build for production
 npm run build
 npm run start
-````
+```
 
-**Testing:**
-
-```bash
 # Run all tests
+
 npm run test
-```
 
-## SCM Deliverables Included
+SCM Deliverables Included
 
-- **SCMP Document** (`docs/SCMP.docx`)
-- **CI Register** (`docs/CI_Register.xlsx`)
-- **Change Request Form** (`docs/Change_Request_Form.docx`)
-- **Baseline Records** (`docs/Baseline_BL1.docx`, `docs/Baseline_BL2.docx`)
-- **Release Notes** (`releases/Release_v1.0.md`, `releases/Release_v1.1.md`)
+SCMP Document (docs/SCMP.docx)
 
-## Branching Strategy
+CI Register (docs/CI_Register.xlsx)
 
-- **main**: stable baseline versions
-- **feature/\***: individual member tasks (e.g., `feature/ui-pages`, `feature/change-request`)
-- **tags**: `BL1`, `BL2` for baselines
+Change Request Form (docs/Change_Request_Form.docx)
 
-## Contributors
+Baseline Records (docs/Baseline_BL1.docx, docs/Baseline_BL2.docx)
 
-- Member 1: SCMP Document
-- Member 2: CI Register
-- Member 3: Change Requests
-- Member 4: Baseline Records
-- Member 5: UI Pages
-- Member 6: JSON Database & Components
+Release Notes (releases/Release_v1.0.md, releases/Release_v1.1.md)
 
-## License
+Branching Strategy
 
-This project is developed for **SWENG5111 SCM Mini Project** at **AASTU**. All rights reserved.
+main: stable baseline versions
 
-```
+feature/\*: individual member tasks (e.g., feature/ui-pages, feature/change-request)
 
----
+tags: BL1, BL2 for baselines
 
-If you want, I can also **write the `CI_Register.xlsx` template and SCMP.docx skeleton** that matches this README, so your team can immediately push **Baseline 1**.
+Contributors
 
-Do you want me to do that next?
-```
+Member 1: SCMP Document
+
+Member 2: CI Register
+
+Member 3: Change Requests
+
+Member 4: Baseline Records
+
+Member 5: UI Pages
+
+Member 6: JSON Database & Components
+
+License
+
+This project is developed for SWENG5111 SCM Mini Project at AASTU. All rights reserved.
